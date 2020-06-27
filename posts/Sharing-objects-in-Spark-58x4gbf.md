@@ -1,6 +1,6 @@
 ---
 title: Sharing objects in Spark
-date: 2020-06-27T21:56:26.063768Z
+date: 2020-06-27T21:56:34.472089Z
 
 tags: Scala, Spark
 ---
@@ -115,7 +115,7 @@ Since a partition is handled by one thread, this approach has the advantage that
 
 ## **One instance per row**
 
-This is your last resort and should only be used if data from a row is needed in the initialization of the instance. Your application will suffer from performance issues if you decide on this approach so maybe you want to consider if one of the two other options can be used. te a
+This is your last resort and should only be used if data from a row is needed in the initialization of the instance. Your application will suffer from performance issues if you decide on this approach so maybe you want to consider if one of the two other options can be used.
 
 ---
 
